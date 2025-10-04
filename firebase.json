@@ -1,0 +1,33 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "migrant-health-app-fe108",
+          "appId": "1:868268363214:android:8e7c7253091bd0a2c36f9f",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "migrant-health-app-fe108",
+          "configurations": {
+            "android": "1:868268363214:android:8e7c7253091bd0a2c36f9f",
+            "ios": "1:868268363214:ios:115ba6ed44b07650c36f9f",
+            "macos": "1:868268363214:ios:115ba6ed44b07650c36f9f",
+            "web": "1:868268363214:web:6363306c4ca0aa61c36f9f",
+            "windows": "1:868268363214:web:8686c254182917b6c36f9f"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
